@@ -12,3 +12,9 @@ export interface Action {
 export interface State {
   app: AppState;
 }
+
+export interface ApiErrorObject {
+  message: string;
+  stack: string;
+  ok: false;
+}
